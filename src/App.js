@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import glassSearch from './assets/icons/glass-search.svg';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className='container'>
+        <div className='grid justify-items-center items-center h-screen'>
+          <div className='w-full max-w-lg'>
+            <div className='text-[72px] font-bold text-[#000000] text-center'>
+              Country
+            </div>
+            <div className='relative'>
+              <input
+                type='text'
+                placeholder='Type any country name'
+                className='input input-bordered w-full max-w-lg'
+              />
+              <img
+                src={glassSearch}
+                className='ml-[92%] mt-[-7%]'
+                alt='glass-search'
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
-}
+};
 
 export default App;
