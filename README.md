@@ -1,7 +1,4 @@
-# Search Country Engine by Teguh
-
-
-
+# Search Engine Country by Teguh
 ## Deskripsi
 
 Projek ini merupakan aplikasi untuk mencari detail dari sebuah negara.
