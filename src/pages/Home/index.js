@@ -1,4 +1,4 @@
-import glassSearch from './assets/icons/glass-search.svg';
+import glassSearch from '../.././assets/icons/glass-search.svg';
 
 const HomePage = () => {
   return (
@@ -13,7 +13,7 @@ const HomePage = () => {
               <input
                 type='text'
                 placeholder='Type any country name'
-                className='input input-bordered w-full max-w-lg'
+                className='input input-dark input-bordered w-full max-w-lg focus:border-[#8362F2] shadow-md'
               />
               <img
                 src={glassSearch}

@@ -1,15 +1,19 @@
-import arrowLeft from './assets/icons/arrow-left.svg';
-import globe from './assets/icons/globe.svg';
+import { Link } from 'react-router-dom';
+
+import arrowLeft from '../.././assets/icons/arrow-left.svg';
+import globe from '../.././assets/icons/globe.svg';
 
 const ResultPage = () => {
   return (
     <>
       <div className='container'>
         <div className='p-2'>
-          <button className='btn-primary bg-[#8362F2] rounded-md text-white w-[18%] p-2 mt-10 mb-10 flex'>
-            <img src={arrowLeft} className='mr-2' alt='arrow-left' />
-            <p className='font-semibold'>Back to HomePage</p>
-          </button>
+          <Link to='/'>
+            <button className='btn-primary bg-[#8362F2] rounded-md text-white w-[18%] p-2 mt-10 mb-10 flex'>
+              <img src={arrowLeft} className='mr-2' alt='arrow-left' />
+              <p className='font-semibold'>Back to HomePage</p>
+            </button>
+          </Link>
           <div>
             <p className='text-5xl font-bold'>Indonesia</p>
             {/* <div className='flag'></div> */}
