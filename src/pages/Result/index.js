@@ -1,7 +1,7 @@
 import arrowLeft from './assets/icons/arrow-left.svg';
 import globe from './assets/icons/globe.svg';
 
-const App = () => {
+const ResultPage = () => {
   return (
     <>
       <div className='container'>
@@ -90,4 +90,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default ResultPage;
