@@ -20,6 +20,5 @@ Pengguna dapat memasukkan nama negara dalam input text pencarian kemudian aplika
 3. npm start untuk memulai atau mendebug aplikasi.
 
 ### Deployment
-
-...
+https://country-search-engine.vercel.app/
 
