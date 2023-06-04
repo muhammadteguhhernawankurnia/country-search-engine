@@ -16,7 +16,7 @@ Pengguna dapat memasukkan nama negara dalam input text pencarian kemudian aplika
 
 ### Instalasi
 1. clone project git clone https://github.com/muhammadteguhhernawankurnia/country-search-engine
-2. npm init untuk menginstal semua package yang terdapat dalam projek.
+2. npm i untuk menginstal semua package yang terdapat dalam projek.
 3. npm start untuk memulai atau mendebug aplikasi.
 
 ### Deployment
